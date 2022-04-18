@@ -8,16 +8,26 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.NewsAppTestOneProject">
+        android:theme="@style/Theme.BrainyDevs">
+
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".ui.activities.intros.SplashUIActivity"
+            android:exported="true"
+            android:theme="@style/Theme.App.SplashUI">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.activities.intros.IntroActivity"
+            android:exported="false"
+            android:theme="@style/Theme.App.IntroUI"/>
+
+        <activity
+            android:name=".ui.activities.MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

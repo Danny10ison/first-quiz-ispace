@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">NewsAppTestOneProject</string>
+    <string name="app_name">Brainy Devs</string>
+    <string name="all_devs">All Devs</string>
+    <string name="search_dev">Search</string>
+    <string name="favourite_dev">Favourite</string>
+    <string name="give_feedback">Feedback</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="loading_developer_details">Loading Developer Details</string>
 </resources>
