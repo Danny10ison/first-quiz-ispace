@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"> Développeurs intelligents</string>
+    <string name="all_devs">
+Tous les développeurs</string>
+    <string name="search_dev">
+Recherche</string>
+    <string name="favourite_dev">Préférée</string>
+    <string name="give_feedback">Retour</string>
+    <string name="placeholder">
+Espace réservé</string>
+    <string name="loading_developer_details">
+Chargement des détails du développeur</string>
+</resources>
