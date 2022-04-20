@@ -12,6 +12,7 @@ import com.hgecapsi.newsapptestoneproject.ui.fragments.FeedbackFragment
 import com.hgecapsi.newsapptestoneproject.ui.fragments.SearchDevFragment
 
 class MainActivity : AppCompatActivity() {
+
     private lateinit var binding: ActivityMainBinding
     private lateinit var bottomNavigationView: BottomNavigationView
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        //        switching between fragments
+        //  Handle bottom navigation
         bottomNavigationView = findViewById(R.id.nav_view)
 
         bottomNavigationView.setOnNavigationItemSelectedListener{
