@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        //  Handle bottom navigation
+        //  Handle bottom naviga
         bottomNavigationView = findViewById(R.id.nav_view)
 
         bottomNavigationView.setOnNavigationItemSelectedListener{
